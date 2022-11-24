@@ -719,7 +719,7 @@ public class RestApi {
     }
 
     private String dateString(Date date) {
-        return new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssXXX").format(date);
+        return new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssZ").format(date);
     }
 
 }
